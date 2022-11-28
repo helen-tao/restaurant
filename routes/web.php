@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-echo "tt";exit;
-Route::get('/', function () {
-    return view('welcome');
-});
+//echo "tt";exit;
+//Route::get('/', function () {
+//    return view('welcome');
+//});
