@@ -24,4 +24,4 @@ use App\Http\Controllers\CountryController;
 
 Route::post('/register', RegisterController::class);
 Route::post('/login', LoginController::class);
-Route::get('/country', CountryController::class);
+Route::get('/countries', CountryController::class);
