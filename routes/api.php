@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CountryController;
+use App\Http\Controllers\StateController;
 
 Route::post('/register', RegisterController::class);
 Route::post('/login', LoginController::class);
 Route::get('/countries', CountryController::class);
+Route::get('/states/{country_id}', StateController::class);
